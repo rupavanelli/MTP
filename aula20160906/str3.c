@@ -5,7 +5,7 @@ int main()
 	int i=0;
 	char frase[256],frasei[256],aux;
 	printf("Digite uma frase: ");
-	gets(frase);
+	fgets(frase,256,stdin);
 	for(i=0;i!='\0';i++)
 	{
 		aux=frase[i];
